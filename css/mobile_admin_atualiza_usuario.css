@@ -1,0 +1,94 @@
+body{
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+
+.header{
+    width:100%;
+    height: 141px;
+    background:url(../img/fundo_header_320.png);
+}
+
+.header #header_margin{
+    margin: 0 auto;
+    width: 320px;
+    height: 140px;
+}
+
+.header #header_margin #logo{
+    padding: 20px;
+    margin-left: 92px;
+}
+
+.header #header_margin #header_usuario{
+    margin-left: 255px;
+    margin-top: -35px;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:12px;
+    color:#666666;	
+}
+
+.header #header_margin #header_usuario a{
+    color: #FF0000;
+}
+
+.corpo{
+    width: 100%;
+    height: 548px;
+    background:url(../img/fundo_corpo_320.png);
+}
+
+.corpo #corpo_margin{
+    margin: 0 auto;
+    width: 320px;
+    height: 548px;
+}
+
+.corpo #corpo_margin #barra{
+    background:url(../img/barra_atualizar_320.png);
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    top: 240px;
+    margin-left: 14px;
+}
+
+.corpo #corpo_margin #cadastro_usuario{
+    position: absolute;
+    top: 290px; 
+    margin-left: 14px;
+    font-family:Verdana, Geneva, sans-serif;
+    font-size:11px;
+    color:#333333;
+}
+
+.corpo #corpo_margin #btn_cadastrar{
+    margin-top: 20px; 
+}
+
+.campo_input{
+    background:#CCCCCC;	
+    border:1px solid #CCC;
+    height:22px;
+    width:200px;
+}
+
+.footer{
+    width: 100%;
+    height: 141px;
+    background:url(../img/fundo_footer_320.png);
+}
+
+.footer #footer_margin{
+    margin: 0 auto;
+    width: 320px;
+    height: 140px;
+}
+
+.footer #footer_margin #logo_krush{
+    padding: 40px;
+    margin-left: 34px;
+}
+
