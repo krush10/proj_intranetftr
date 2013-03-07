@@ -14,6 +14,9 @@
                     if(isset($_SESSION["id_usuario"])){
                         echo "<table>";
                             echo "<tr>";
+                            if($_SESSION["usuario_perfil"] == "Administrador"){
+                            echo "<td><a href='atualizar-usuario.php'>Editar</a></td>";    
+                            }
                             echo "<td><a href='logoff.php'>Logoff</a></td>";
                             echo "</tr>";
                         echo "</table>";
